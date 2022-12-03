@@ -325,7 +325,7 @@ groups.setup = function()
     ["@tag.delimiter"] = { link = "Delimiter" },
 
     -- nvim-treesitter (0.8 overrides)
-    ["@text.strong"] = { bold = config.bold },
+    -- ["@text.strong"] = { bold = config.bold },
     ["@text.strike"] = { strikethrough = config.strikethrough },
     ["@text.emphasis"] = { italic = config.italic },
     ["@text.underline"] = { underline = config.underline },
