@@ -1,5 +1,5 @@
-require("plenary.reload").reload_module("gruvbox", true)
-local gruvbox = require("gruvbox")
+require("plenary.reload").reload_module("fleet", true)
+local fleet = require("fleet")
 
 describe("setup", function()
   it("works with default values", function()
@@ -21,8 +21,8 @@ describe("setup", function()
       transparent_mode = false,
     }
 
-    gruvbox.setup()
-    assert.are.same(gruvbox.config, expected)
+    fleet.setup()
+    assert.are.same(fleet.config, expected)
   end)
 
   it("works with config overrides", function()
@@ -44,8 +44,8 @@ describe("setup", function()
       transparent_mode = false,
     }
 
-    gruvbox.setup({ undercurl = false, underline = false })
-    assert.are.same(gruvbox.config, expected)
+    fleet.setup({ undercurl = false, underline = false })
+    assert.are.same(fleet.config, expected)
   end)
 end)
 
@@ -58,8 +58,8 @@ describe("highlight overrides", function()
       },
     }
 
-    gruvbox.setup(config)
-    gruvbox.load()
+    fleet.setup(config)
+    fleet.load()
 
     local search_group_id = vim.api.nvim_get_hl_id_by_name("Search")
     local search_values = {
@@ -85,8 +85,8 @@ describe("highlight overrides", function()
       },
     }
 
-    gruvbox.setup(config)
-    gruvbox.load()
+    fleet.setup(config)
+    fleet.load()
 
     local search_group_id = vim.api.nvim_get_hl_id_by_name("Search")
     local search_values = {
@@ -111,8 +111,8 @@ describe("highlight overrides", function()
       },
     }
 
-    gruvbox.setup(config)
-    gruvbox.load()
+    fleet.setup(config)
+    fleet.load()
 
     local group_id = vim.api.nvim_get_hl_id_by_name("Function")
     local values = {
@@ -128,8 +128,8 @@ describe("highlight overrides", function()
       },
     }
 
-    gruvbox.setup(config)
-    gruvbox.load()
+    fleet.setup(config)
+    fleet.load()
 
     local group_id = vim.api.nvim_get_hl_id_by_name("Function")
     local values = {

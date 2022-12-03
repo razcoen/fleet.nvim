@@ -1,0 +1,52 @@
+-- fleet palette
+return {
+  dark0_hard = "#181818",
+  dark0 = "#1c1c1c",
+  dark0_soft = "#202020",
+  dark1 = "#242424",
+  dark2 = "#282828",
+  dark3 = "#2c2c2c",
+  dark4 = "#303030",
+  light0_hard = "#efefef",
+  light0 = "#efefef",
+  light0_soft = "#efefef",
+  light1 = "#d1d1d1",
+  light2 = "#d1d1d1",
+  light3 = "#d1d1d1",
+  light4 = "#d1d1d1",
+
+  bright_red = "#cc7c8a",
+  bright_green = "#a8cc7c",
+  bright_yellow = "#ebc88d",
+  bright_blue = "#7fb7ef",
+  bright_purple = "#e394dc",
+  bright_aqua = "#82d2ce",
+  bright_orange = "#d1d1d1",
+
+  neutral_red = "#cc7c8a",
+  neutral_green = "#a8cc7c",
+  neutral_yellow = "#ebc88d",
+  neutral_blue = "#7fb7ef",
+  neutral_purple = "#af9cff",
+  neutral_aqua = "#82d2ce",
+  neutral_orange = "#ebc88d",
+  -- previous configurations:
+  -- neutral_red = "#cc7c8a",
+  -- neutral_green = "#98971a",
+  -- neutral_yellow = "#dbbb84",
+  -- neutral_blue = "#7fb7ef",
+  -- neutral_purple = "#af9cff",
+  -- neutral_aqua = "#689d6a",
+  -- neutral_orange = "#d65d0e",
+
+  -- Used for light mode only
+  faded_red = "#9d0006",
+  faded_green = "#79740e",
+  faded_yellow = "#b57614",
+  faded_blue = "#076678",
+  faded_purple = "#8f3f71",
+  faded_aqua = "#427b58",
+  faded_orange = "#af3a03",
+
+  gray = "#898989",
+}

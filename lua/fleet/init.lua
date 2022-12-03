@@ -12,7 +12,7 @@ M.config = {
   invert_tabline = false,
   invert_intend_guides = false,
   inverse = true, -- invert background for search, diffs, statuslines and errors
-  contrast = "", -- can be "hard", "soft" or empty string
+  contrast = "hard", -- can be "hard", "soft" or empty string
   palette_overrides = {},
   overrides = {},
   dim_inactive = false,
@@ -25,7 +25,7 @@ end
 
 M.load = function()
   if vim.version().minor < 7 then
-    vim.notify_once("gruvbox.nvim: you must use neovim 0.7 or higher")
+    vim.notify_once("fleet.nvim: you must use neovim 0.7 or higher")
     return
   end
 
@@ -34,10 +34,10 @@ M.load = function()
     vim.cmd("hi clear")
   end
 
-  vim.g.colors_name = "gruvbox"
+  vim.g.colors_name = "fleet"
   vim.o.termguicolors = true
 
-  local groups = require("gruvbox.groups").setup()
+  local groups = require("fleet.groups").setup()
 
   -- add highlights
   for group, settings in pairs(groups) do
