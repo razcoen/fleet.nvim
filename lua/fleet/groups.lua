@@ -213,7 +213,7 @@ groups.setup = function()
     Boolean = { link = "FleetYellow" },
     Number = { link = "FleetYellow" },
     Float = { link = "FleetYellow" },
-    Type = { link = "FleetBlueBold" },
+    Type = { link = "FleetBlue" },
     StorageClass = { link = "FleetFg1" },
     Structure = { link = "FleetAquaBold" },
     Typedef = { link = "FleetFg1" },
