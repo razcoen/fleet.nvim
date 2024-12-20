@@ -1,4 +1,3 @@
--- fleet palette
 return {
   dark0_hard = "#181818",
   dark0 = "#1c1c1c",
@@ -30,14 +29,6 @@ return {
   neutral_purple = "#af9cff",
   neutral_aqua = "#82d2ce",
   neutral_orange = "#ebc88d",
-  -- previous configurations:
-  -- neutral_red = "#cc7c8a",
-  -- neutral_green = "#98971a",
-  -- neutral_yellow = "#dbbb84",
-  -- neutral_blue = "#7fb7ef",
-  -- neutral_purple = "#af9cff",
-  -- neutral_aqua = "#689d6a",
-  -- neutral_orange = "#d65d0e",
 
   -- Used for light mode only
   faded_red = "#9d0006",
