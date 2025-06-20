@@ -1,6 +1,6 @@
 return {
-  dark0_hard = "#181818",
-  dark0 = "#1c1c1c",
+  dark0_hard = "#080808",
+  dark0 = "#0c0c0c",
   dark0_soft = "#202020",
   dark1 = "#242424",
   dark2 = "#282828",
